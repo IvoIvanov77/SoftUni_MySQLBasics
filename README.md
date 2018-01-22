@@ -1,4 +1,5 @@
 # SoftUni_MySQLBasics
+Database Basics Course - MySQL
 ## Course Objectives
 ### The Database Basics course provides:
 #### - Basic database and query concepts
