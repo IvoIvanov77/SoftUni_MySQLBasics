@@ -306,7 +306,7 @@ CREATE TABLE categories
 CREATE TABLE cars
 (
 	id INT PRIMARY KEY,
-	plate_number VARCHAR(50) NOT NULL,
+	plate_number VARCHAR(50) UNIQUE NOT NULL,
 	make VARCHAR(50),
  model VARCHAR(50),
 	car_year INT(4),
