@@ -18,18 +18,18 @@ Unsigned - represent number only in the positive range
 
 ##### String column definitions include attributes that specify the
 #
- >character set or collation
- CHARACTER SET (Encoding)
- E.g. utf8, ucs2
- CHARACTER COLLATION – rules for encoding comparison
- E.g. latin1_general_cs, Traditional_Spanish_ci_ai etc.
- Set and collation can be defined at the database, table or column level
+###### character set or collation:
+	 CHARACTER SET (Encoding)
+	 E.g. utf8, ucs2
+	 CHARACTER COLLATION – rules for encoding comparison
+	 E.g. latin1_general_cs, Traditional_Spanish_ci_ai etc.
+	 Set and collation can be defined at the database, table or column level
 
- >CHAR [(M)] - up to 30 characters
- VARCHAR(M) – up to 255 characters
- TEXT [(M)] – up to 65 535 characters
- TINYTEXT, MEDIUMTEXT, LONGTEXT
- BLOB - Binary Large OBject [(M)] - 65 535 (216 − 1) characters
+ >CHAR [(M)] - up to 30 characters  
+ VARCHAR(M) – up to 255 characters  
+ TEXT [(M)] – up to 65 535 characters  
+ TINYTEXT, MEDIUMTEXT, LONGTEXT  
+ BLOB - Binary Large OBject [(M)] - 65 535 (216 − 1) characters  
  TINYBLOB, MEDIUMBLOB, LONGBLOB
 
 
