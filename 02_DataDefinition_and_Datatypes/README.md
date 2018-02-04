@@ -4,7 +4,7 @@
 #### Numeric, String and Data Types
 ##### Numeric data types have certain range
 #
->Their range can be changed if they are:
+>Their range can be changed if they are:  
 Signed - represent numbers both in the positive and negative ranges
 Unsigned - represent number only in the positive range
 
@@ -18,14 +18,14 @@ Unsigned - represent number only in the positive range
 
 ##### String column definitions include attributes that specify the
 #
- >>character set or collation
+ >character set or collation
  CHARACTER SET (Encoding)
  E.g. utf8, ucs2
  CHARACTER COLLATION – rules for encoding comparison
  E.g. latin1_general_cs, Traditional_Spanish_ci_ai etc.
  Set and collation can be defined at the database, table or column level
 
- >>CHAR [(M)] - up to 30 characters
+ >CHAR [(M)] - up to 30 characters
  VARCHAR(M) – up to 255 characters
  TEXT [(M)] – up to 65 535 characters
  TINYTEXT, MEDIUMTEXT, LONGTEXT
@@ -41,10 +41,10 @@ picture  |    BLOB(LONGBLOB)
 
 ##### Date Types
 #
->>DATE - 	 for values with a date part but no time part
->>TIME -     for values with time but no date part
->>DATETIME - values that contain both date and time parts
->>IMESTAMP  both date and time parts
+>DATE - 	 for values with a date part but no time part
+>TIME -     for values with time but no date part
+>DATETIME - values that contain both date and time parts
+>IMESTAMP  both date and time parts
 
 |Column name  |     Column Type|
 |---------|------------|
@@ -106,7 +106,7 @@ LIMIT 5;
 
 ##### Altering Tables Using SQL
 #
->>A table can be changed using the keywords ALTER TABLE
+>A table can be changed using the keywords ALTER TABLE
 
 ###### Add new column:
     ALTER TABLE employees
