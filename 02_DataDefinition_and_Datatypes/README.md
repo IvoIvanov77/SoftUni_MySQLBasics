@@ -9,10 +9,10 @@ Signed - represent numbers both in the positive and negative ranges
 Unsigned - represent number only in the positive range
 
 
- >INT [(M)] [UNSIGNED]
- TINYNT, SMALLINT, MEDIUMINT, BIGINT
- DOUBLE [(M, D)] [UNSIGNED]
- E.g. DOUBLE[5, 2] – 999.99
+ >INT [(M)] [UNSIGNED]  
+ TINYNT, SMALLINT, MEDIUMINT, BIGINT  
+ DOUBLE [(M, D)] [UNSIGNED]  
+ E.g. DOUBLE[5, 2] – 999.99  
  DECIMAL [(M, D )] [UNSIGNED] [ZEROFILL]
 
 
