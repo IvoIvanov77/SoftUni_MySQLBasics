@@ -5,7 +5,7 @@
 ##### Numeric data types have certain range
 #
 >Their range can be changed if they are:  
-Signed - represent numbers both in the positive and negative ranges
+Signed - represent numbers both in the positive and negative ranges  
 Unsigned - represent number only in the positive range
 
 
@@ -136,10 +136,10 @@ LIMIT 5;
 
 ##### Dropping and Truncating
 #
->> Deleting structures is called dropping
->> You can drop keys, constraints, tables and entire databases
->> Deleting all data in a table is called truncating
->> Both of these actions cannot be undone – use with caution!
+> Deleting structures is called dropping
+> You can drop keys, constraints, tables and entire databases
+> Deleting all data in a table is called truncating
+> Both of these actions cannot be undone – use with caution!
 
 ###### To delete all the entries in a table:
 	TRUNCATE TABLE employees;
