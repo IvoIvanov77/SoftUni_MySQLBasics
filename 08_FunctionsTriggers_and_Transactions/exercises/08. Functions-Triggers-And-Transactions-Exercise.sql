@@ -141,6 +141,36 @@ CREATE FUNCTION ufn_is_word_comprised(set_of_letters VARCHAR(50), word VARCHAR(5
 		END WHILE;
 		RETURN TRUE;
 	END$$
+	
+--100/100 judge	
+CREATE FUNCTION ufn_is_word_comprised(set_of_letters varchar(50), word varchar(50))
+RETURNS BIT
+RETURN word REGEXP (concat('^[', set_of_letters, ']+$'));
+
+/*
+08*_Delete Employees and Departments
+Write a SQL query to delete all employees from the Production and
+Production Control departments. Also delete these departments from
+the departments table.
+*/
+
+ALTER TABLE departments DROP FOREIGN KEY `fk_departments_employees`;
+ALTER TABLE departments DROP INDEX `fk_departments_employees` ;
+ALTER TABLE employees_projects DROP FOREIGN KEY `fk_employees_projects_employees`;
+ALTER TABLE employees DROP FOREIGN KEY `fk_employees_employees`;
+
+DELETE FROM employees
+WHERE
+    department_id IN (SELECT 
+        d.department_id
+    FROM
+        departments AS d
+    WHERE
+        d.name IN ('Production' , 'Production Control'));
+        
+DELETE FROM departments 
+WHERE
+    name IN ('Production' , 'Production Control');
 
 /*
 PART II – Queries for Bank Database
