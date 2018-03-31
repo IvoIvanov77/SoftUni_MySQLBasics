@@ -1,5 +1,5 @@
 # SoftUni_MySQLBasics
-[Database Basics Course - MySQL](https://softuni.bg/trainings/1871/database-basics-mysql-january-2018)
+## [Database Basics Course - MySQL](https://softuni.bg/trainings/1871/database-basics-mysql-january-2018)
 
 [![picture1](https://user-images.githubusercontent.com/16088420/35238101-2f997f32-ffb5-11e7-99e7-34fd428feba0.png)](url)
 
