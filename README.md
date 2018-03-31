@@ -22,3 +22,7 @@ Database Basics Course - MySQL
 #### - Table Relations
 #### - Subqueries and JOINs
 #### - Functions, Triggers, Transactions
+
+# Certificate:
+![database basics mysql january 2018 - certificate-1](https://user-images.githubusercontent.com/16088420/38166549-1112ed92-352e-11e8-9904-e8ec6f6015d2.jpg)
+
